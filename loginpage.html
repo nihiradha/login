@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+</head>
+<style>
+
+   body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#6abadeba;
+    font-family: 'Arial';
+}
+
+.login{
+        width: 282px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: #23463f;
+        border-radius: 15px ;
+
+}
+#Uname{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{background-color: blue;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: white;}
+
+    span{
+    color: white;
+    font-size: 17px;
+}
+
+a{
+    
+    background-color: grey;
+color:black;
+}
+
+
+
+
+
+</style>
+<body>
+
+    
+    <h1 align="center">Login</h1><di>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b>Email
+        </b>
+        </label>
+        <br><br>
+        <input type="text" name="Uname" id="Uname" placeholder="Email">
+        <br><br>
+         <label><b>Password
+        </b>
+        </label>
+        <br><br>
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>you accept   <a href="#">terms and conditions</a></span>
+        
+        <br><br>
+        <input type="button" name="log" id="log" value="login">
+        <br><br>
+         <a href="#">sign up</a> 
+   <a href="#">Reset Password</a>
+        
+
+   </form>
+   
+</div>
+
+
+
+
+
+
+	</body>
+	</html>
